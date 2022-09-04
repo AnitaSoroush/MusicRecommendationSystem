@@ -159,15 +159,6 @@ def main(args) -> None:
             userPreferences = pd.read_csv(file_name)
             music_recommender(userPreferences)
 
-    # TODO:
-    # 1. Use your train model to make recommendations for the user.
-    # 2. Output the recommendations as 5 different playlists with
-    #    the top 5 songs in each playlist. (5 playlists x 5 songs)
-    # 2.1. Musics in a single playlist should be from the same cluster.
-    # 2.2. Save playlists to a csv file.
-    # 3. Output another single playlist recommendation with all top songs from all clusters.
-
-
 if __name__ == "__main__":
     """get arguments from command line
     you just have to write the name of the file that contains the users favorite tracks.
